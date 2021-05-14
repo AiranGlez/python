@@ -1,31 +1,47 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# PYTHON 
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./python.jpg)
 
 Additional description about the project and its features.
 
-## Built With
+## FEATURES
 
-- Major languages
-- Frameworks
-- Technologies used
+- High-level language. Simple and clear grammar. 
+- Strong and dynamic typing. 
+- Object oriented
+- Open Source
 
-## Live Demo
+## INSTALLATION
 
-[Live Demo Link](https://livedemo.com)
+### Windows
+
+`https://www.python.org/downloads/`
+
+### Linux
+
+`https://docs.python-guide.org/starting/install3/linux/`
+
+## GETTING STARTED
+
+### Functions
+
+    A function is a block of code that works as a unit to do a specific task. Python functions can return values and can have parameters or arguments. Functions are also called 'methods' when it is defined inside a class.
+
+Syntax:
+
+```
+def function_name():
+    function instrunction1
+    function instrunction2
+    function instrunction3
+    return (optional)
+```
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 

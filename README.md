@@ -41,7 +41,64 @@ def function_name():
     return (optional)
 ```
 
+### Lists
 
+    Lists are data structures that can store multiple items in a single variable. In Python, lists can store different types of values, and they can be dinamically expanded adding new elements. 
+
+Syntax:
+
+```
+listName = [element1, element2, element3]
+```
+
+### Tuples
+
+    Tuples are immutable lists, they cannot be modified. They are faster and lighter than lists, and can be used as keys in a dictionary.
+
+Syntax:
+
+```
+tupleName = (element1, element2, element3)
+```
+
+### Dictionaries
+
+    Dictionaries or associative arrays are data structures consisting of a collection of key-value pairs.
+
+Syntax:
+
+```
+dictionaryName = {
+    'name': 'myname'
+    'age': 'myage'
+    'id': 'myid'
+}
+```
+
+### Conditionals: if
+
+Syntax:
+
+```
+if condition:
+    expression
+elif condition:
+    expression
+else:
+    expression
+```
+
+### Generators
+
+    Generators are structures that allow you to declare a function that behaves like an iterator. They are more efficient than normal functions, useful with lists with infinite values.
+
+[Check this](/demos/basics/generators.py) 
+
+### Exceptions
+
+    Exceptions are errors ocurring during programm execution. Code syntax is correct but the programm does not work as expected.
+
+[Check this](/demos/basics/exceptions.py) 
 
 ### Prerequisites
 

@@ -98,7 +98,34 @@ else:
 
     Exceptions are errors ocurring during programm execution. Code syntax is correct but the programm does not work as expected.
 
-[Check this](/demos/basics/exceptions.py) 
+[Exceptions basics](/demos/basics/exceptions.py)
+
+[Exceptions by blocks](/demos/basics/exceptions_II.py)
+
+[Raise exceptions](/demos/basics/exceptions_III.py)
+
+### Object oriented programming
+
+    OOP: programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (attributes or properties), and code in the form of procedures (methods). The most popular OOP languages are class-based, meaning that objects are instances of classes, which also determine their types.
+
+Advantages:
+
+* Modularization: programms divided in parts or modules. 
+* Reusable: inheritance.
+* Exception treatment
+* Encapsulation
+
+Definitions: 
+
+- `Class: Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. Each class instance can have attributes attached to it for maintaining its state. Class instances can also have methods (defined by its class) for modifying its state.`
+- `Object: An object is simply a collection of data (variables) and methods (functions) that act on those data.`
+- `Class instance: An individual object of a certain class. An object obj that belongs to a class.`
+- `Modularization: Modular programming is a software design technique to split your code into separate parts. These parts are called modules. The focus for this separation should be to have modules with no or just few dependencies upon other modules.`
+- `Encapsulation: Encapsulation is the packing of data and functions operating on that data into a single component and restricting the access to some of the object's components. Encapsulation means that the internal representation of an object is generally hidden from view outside of the object's definition.`
+- `Inheritance: Inheritance allows us to define a class that inherits all the methods and properties from another class. Parent class is the class being inherited from, also called base class. Child class is the class that inherits from another class, also called derived class.`
+- `Polymorphism: Polymorphism is the ability to leverage the same interface for different underlying forms such as data types or classes. This permits functions to use entities of different types at different times.`
+
+
 
 ### Prerequisites
 

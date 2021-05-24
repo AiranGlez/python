@@ -8,8 +8,13 @@ def divideints(num1, num2):
         print('Cannot divide by zero')
 
 
-num1 = int(input('1º: '))
-num2 = int(input('2º: '))
+while True:
+    try:
+        num1 = int(input('1º: '))
+        num2 = int(input('2º: '))
+        break
+    except ValueError:
+        print("Introduced values are invalid")
 
 print(divideints(num1, num2))
 
